@@ -1,10 +1,10 @@
 $(document).ready(function(){
-$('.bxslider').bxSlider({
-    mode: 'horizontal',
+$(".bxslider").bxSlider({
+    mode: "horizontal",
     auto: true,
   });
-    $('.menu-togglr').on('click',function(){
-        $('#main-nav').slideToggle('fast');
-        $(this).toggleClass('active');
+    $(".menu-togglr").on("click", function(){
+        $("#main-nav").slideToggle("fast");
+        $(this).toggleClass("active");
     });
 });
