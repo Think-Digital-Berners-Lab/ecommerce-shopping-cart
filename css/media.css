@@ -12,6 +12,25 @@
         width: 19%;
         margin: 0 0.5% 0;
     }
+    .prod-box{
+        width: 19%;
+        margin: 5px 0.5%;
+    }
+    .offer{
+        width: 410px;
+    }
+    .footer_sub{
+        width: 24%;
+        padding-left: 10px;    
+    }
+    .footer_head{
+        text-align: center;
+    }
+    .story{
+        font-size: 16px;
+        font-weight:300;
+    }
+    
 }
 @media screen and (max-width:1204px){
     #logo{
@@ -36,6 +55,24 @@
     }
     .catbox{
         height: 190px;
+    }
+    .prod-box{
+        height: 245px;
+    }
+    .prod-box:hover .prod-feature{
+    margin-top: 120px;
+    }
+    .offer{
+        width: 325px;
+    }
+    .subs{
+        width: 250px;
+    }
+    .footer_head{
+        font-size: 20px;
+    }
+    .story{
+        font-size: 15px;
     }
     
 }
@@ -100,7 +137,34 @@
     .catbox{
         height: 150px;
     }
-
+    .prod-box{
+        height: 190px;
+    }
+    .prod-box:hover .prod-feature{
+    margin-top: 70px;
+    }
+    .prod-feature input{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .offer{
+        width: 250px;
+    }
+    .footer_sub2{
+        width: 15%;
+        float: left;
+        padding: 0 15px;
+    }
+    .footer_sub2 ul li{
+        margin-left: -20px;
+    }
+    .footer_head{
+        font-size: 17px;
+    }
+    .subs{
+        width: 200px;
+    }
 }
 @media screen and (max-width:640px){
     .catbox{
@@ -112,6 +176,43 @@
         line-height: 25px;
         font-size: 14px;
     }
+    .prod-box{
+        height: 150px;
+    }
+    .prod-box:hover .prod-feature{
+    margin-top: 50px;
+    }
+    .prod-feature input{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .prod-feature p{
+        font-size: 14px;
+    }
+    .offer{ 
+        width: 200px;
+    }
+    .footer_sub{
+        width: 45%;
+    }
+    .footer_sub2{
+        width: 20%;
+        float: left;
+        padding: 0 10px;
+    }
+    .footer_sub3{
+        width: 90%;
+        float: left;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .subs{
+        width 600px;
+    }
+    .sbs-btn{
+        margin-left: -75px;
+    }
 }
 @media screen and (max-width:480px){
     #subheader p{
@@ -120,6 +221,18 @@
     #subheader{
         padding-bottom: 10px;
     }
+    .prod-box{
+        height: auto;
+        width: 45%;
+        margin: 5px 10px;
+    }
+     .prod-box:hover .prod-feature{
+    margin-top: 140px;
+    }
+     .prod-feature p{
+        font-size: 17px;
+    }
+    
     
 }
 @media screen and (max-width:360px){
@@ -146,7 +259,7 @@
         height: 27px;
         font-size: 10px;
         width: 60px;
-        margin-left: -60px;
+        margin-left: -60.1px;
     }
     #user-menu{
        width: 100px; 
@@ -155,11 +268,15 @@
     #user-menu li{
         font-size: 15px;
         width: 70px;
-        margin-left: 50px;
+        margin-left: 40px;
         margin-top: 0px;
+           border-left: none;
+}
+    #user-menu li:hover{
+    font-size: 20px;
+    transition:all 0.5s ease;
+}
         
-        
-    }
     #heading-block+ .catbox{
         width: 50%;
         height: auto;
@@ -172,4 +289,30 @@
         bottom: 30px;  
         font-size: 10px;
     }
+    .prod-box{
+        height: auto;
+        width: 45%;
+        margin:5px 3px; 
+    }
+     .prod-box:hover .prod-feature{
+    margin-top: 80px;
+    }
+     .prod-feature p{
+        font-size: 17px;
+    }
+    .offer{
+        width: 100%;
+        margin: 7px 0;
+    }
+    .footer_sub{
+        width:95%;
+        text-align: justify;
+    }
+    .footer_sub2{
+        width: 42%;
+    }
+    .subs{
+        width: 100%;
+    }
+    
 }

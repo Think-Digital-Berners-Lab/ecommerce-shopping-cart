@@ -254,8 +254,16 @@ nav a:hover{
     width: 150px;
     height: 35px;
     font-size:17px;
+    background: #1aba14;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
 }
 
+.prod-feature input:hover{
+    background: #2ab425;
+    transition: all 0.5s ease;
+}
 /*offer*/
 .offer{
     width: 400px;
